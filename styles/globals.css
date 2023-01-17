@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    body {
+        @apply text-white bg-neutral-900
+    }
+
+    h1, h2, h3, h4, h5 {
+        @apply font-semibold
+    }
+
+    h1 {
+        @apply text-4xl sm:text-5xl md:text-6xl
+    }
+
+    h2 {
+        @apply text-3xl sm:text-4xl
+    }
+
+    h3 {
+        @apply text-lg md:text-2xl lg:text-3xl
+    }
+
+    p {
+        @apply text-lg sm:text-xl lg:text-xl
+    }
+
+    li {
+        @apply cursor-pointer
+    }
+
+}

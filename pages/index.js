@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/Link';
 
 import Form from '../components/Form/Form';
 import { FormProvider } from '../context/FormContext';
